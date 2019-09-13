@@ -1,12 +1,12 @@
 #Ввод данных
 puts "Введите сторону треугольника:"
-triangle_1 = gets.chomp.to_i
+triangle_1 = gets.chomp.to_f
 
 puts "Введите вторую сторону треугольника:"
-triangle_2 = gets.chomp.to_i
+triangle_2 = gets.chomp.to_f
 
 puts "Введите третью сторону треугольника:"
-triangle_3 = gets.chomp.to_i
+triangle_3 = gets.chomp.to_f
 
 # Сортировка сторон по длине
 katet_1, katet_2, hypot = [triangle_1, triangle_2, triangle_3].sort

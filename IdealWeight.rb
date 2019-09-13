@@ -1,7 +1,7 @@
 puts "What's your name?"
 name = gets.chomp
 puts "What's your height?"
-height = gets.chomp.to_i
+height = gets.to_i
 ideal_weight = height - 110
 if ideal_weight < 0
   puts "Ваш вес уже оптимальный"

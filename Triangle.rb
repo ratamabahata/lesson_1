@@ -1,7 +1,7 @@
 puts "Введите основание треугольника:"
-triangle_a = gets.chomp.to_i
+triangle_a = gets.to_f
 puts "Введите высоту треугольника:"
-triangle_h = gets.chomp.to_i
+triangle_h = gets.to_f
 
 triangle_s = (triangle_a * triangle_h) / 2
 
